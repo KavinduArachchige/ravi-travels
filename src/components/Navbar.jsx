@@ -12,10 +12,11 @@ export default function Navbar(){
         {/* Brand (logo + wordmark) */}
         <Link to="/" className="flex items-center gap-2" aria-label="Ravi Travels & Tours — Home">
           <img
-            src="/images/ravi-logo.png"
-            alt="Ravi Travels & Tours logo"
-            className="h-10 w-auto rounded-md"
-          />
+  src={`${import.meta.env.BASE_URL}images/ravi-logo.png`}
+  alt="Ravi Travels & Tours logo"
+  className="h-10 w-auto rounded-md"
+/>
+
           <span className="hidden sm:inline text-lg font-bold text-slate-900">
             Ravi Travels & Tours
           </span>
