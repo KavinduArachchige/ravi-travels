@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-slate-50 text-slate-800 font-sans; }
+}
+
+@layer components {
+  .bg-gradient-brand { background: linear-gradient(135deg,#0ea5e9 0%,#6366f1 50%,#f43f5e 100%); }
+  .card { @apply rounded-2xl shadow-lg bg-white/80 backdrop-blur border border-white/40; }
+  .btn { @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold; }
+  .btn-primary { @apply btn bg-gradient-to-r from-sky-500 to-fuchsia-500 text-white hover:opacity-90; }
+  .input { @apply w-full rounded-xl border border-slate-200 bg-white/70 px-4 py-2 outline-none focus:ring-2 focus:ring-sky-400; }
+  .nav-link { @apply px-4 py-2 rounded-lg text-slate-700 hover:text-slate-900 hover:bg-slate-100; }
+  .footer-link { @apply text-slate-300 hover:text-white transition-colors; }
+  .footer-social { @apply h-10 w-10 inline-flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-white/10 text-white transition; }
+  .section-title { @apply relative inline-block; }
+  .section-title::after {
+    content: ""; @apply absolute -bottom-1 left-0 h-1 w-16 rounded-full;
+    background-image: linear-gradient(90deg,#0ea5e9,#6366f1,#f43f5e);
+  }
+}

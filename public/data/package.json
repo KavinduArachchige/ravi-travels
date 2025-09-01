@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Dubai Desert Safari (Classic)",
+    "slug": "desert-safari-classic",
+    "shortDescription": "Evening safari, dune bashing, camel ride, BBQ dinner & live shows.",
+    "days": 1, "nights": 0, "priceFromLKR": 175000,
+    "themes": ["desert","adventure","family"],
+    "highlights": ["4x4 dune bashing","Camel ride","BBQ dinner","Live shows"],
+    "itinerary": [{ "day": 1, "title": "Evening Safari", "description": "Pickup ~3pm, dunes, camp activities, dinner, drop ~9pm."}],
+    "inclusions": ["Hotel pickup","Dinner","Show"],
+    "exclusions": ["Quad bikes (optional)"],
+    "gallery": ["/images/safari.jpg"],
+    "isFeatured": true
+  },
+  {
+    "title": "Dubai City Highlights (Half Day)",
+    "slug": "dubai-city-highlights",
+    "shortDescription": "Old & New Dubai: Marina, Palm, Souks, photo stops at icons.",
+    "days": 1, "nights": 0, "priceFromLKR": 210000,
+    "themes": ["city","family"],
+    "highlights": ["Marina","Palm Jumeirah","Souks"],
+    "itinerary": [{ "day": 1, "title": "Guided City Tour", "description": "Coach tour with photo stops and short walks."}],
+    "inclusions": ["Guide","Transport"],
+    "exclusions": ["Attraction tickets"],
+    "gallery": ["/images/city.jpg"],
+    "isFeatured": true
+  },
+  {
+    "title": "Luxury Dubai Escape (3N/4D)",
+    "slug": "luxury-dubai-escape",
+    "shortDescription": "5★ hotel, private transfers, yacht evening & premium experiences.",
+    "days": 4, "nights": 3, "priceFromLKR": 885000,
+    "themes": ["luxury","couples"],
+    "highlights": ["5★ hotel","Yacht cruise","Premium desert"],
+    "itinerary": [
+      { "day": 1, "title": "Arrival", "description": "Private transfer, evening yacht."},
+      { "day": 2, "title": "Burj & Dubai Mall", "description": "Top of Burj + fountain show."},
+      { "day": 3, "title": "Premium Desert", "description": "Platinum desert experience."},
+      { "day": 4, "title": "Departure", "description": "Private transfer to DXB."}
+    ],
+    "inclusions": ["Breakfast","Private transfers"],
+    "exclusions": ["Flights"],
+    "gallery": ["/images/luxury.jpg"],
+    "isFeatured": true
+  },
+  {
+    "title": "Atlantis Aquaventure Waterpark",
+    "slug": "atlantis-aquaventure",
+    "shortDescription": "Full-day access to the Middle East’s #1 waterpark on the Palm.",
+    "days": 1, "nights": 0, "priceFromLKR": 245000,
+    "themes": ["family","adventure","water"],
+    "highlights": ["Record slides","Lazy river","Private beach"],
+    "itinerary": [{ "day": 1, "title": "Park Day", "description": "Open-close splashtime."}],
+    "inclusions": ["Aquaventure ticket"],
+    "exclusions": ["Meals","Locker"],
+    "gallery": ["/images/aquaventure.jpg"],
+    "isFeatured": true
+  },
+  {
+    "title": "Private Yacht Cruise (1.5–2 hrs)",
+    "slug": "private-yacht-cruise",
+    "shortDescription": "Marina → JBR → Bluewaters. Skipper + crew.",
+    "days": 1, "nights": 0, "priceFromLKR": 390000,
+    "themes": ["luxury","couples","city"],
+    "highlights": ["JBR & Ain Dubai views","Sunset photos"],
+    "itinerary": [{ "day": 1, "title": "Cruise", "description": "Scenic loop from Dubai Marina."}],
+    "inclusions": ["Yacht","Crew","Water/ice"],
+    "exclusions": ["Transfers","Catering"],
+    "gallery": ["/images/yacht.jpg"]
+  }
+]

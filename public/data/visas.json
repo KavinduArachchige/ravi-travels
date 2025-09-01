@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Tourist Visa – 30 Days",
+    "processingDays": 5,
+    "feeLKR": 74500,
+    "requirements": ["Passport copy","Photo","Return ticket","Hotel booking"],
+    "description": "Single-entry tourist visa valid for 30 days.",
+    "faqs": [{ "q": "How long to process?", "a": "Typically 3–5 working days." }],
+    "status": "published"
+  },
+  {
+    "name": "Tourist Visa – 60 Days",
+    "processingDays": 6,
+    "feeLKR": 105000,
+    "requirements": ["Passport copy","Photo","Return ticket","Hotel booking"],
+    "description": "Single-entry tourist visa valid for 60 days.",
+    "faqs": [{ "q": "Refundable?", "a": "Visa fees are generally non-refundable." }],
+    "status": "published"
+  }
+]
