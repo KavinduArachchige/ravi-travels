@@ -14,16 +14,17 @@ import NotFound from "./pages/NotFound.jsx";
 
 const router = createHashRouter([
   {
-    path: "/",
-    element: <App />,
+    path: "/",               // parent route for everything
+    element: <App />,        // your layout (Navbar/Footer)
     errorElement: <NotFound />,
     children: [
-      { index: true, element: <Home /> },
+      { index: true, element: <Home /> },                // <-- HOME
       { path: "packages", element: <Packages /> },
       { path: "packages/:slug", element: <PackageDetails /> },
       { path: "dubai-visa", element: <Visa /> },
       { path: "contact", element: <Contact /> },
       { path: "about", element: <About /> },
+      { path: "*", element: <NotFound /> },              // catch-all
     ],
   },
 ]);

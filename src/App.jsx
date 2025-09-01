@@ -1,16 +1,15 @@
-import { Outlet } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import WhatsAppFloat from './components/WhatsAppFloat'
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
 
-
-export default function App(){
-return (
-<div className="min-h-dvh flex flex-col bg-slate-50 text-slate-800">
-<Navbar/>
-<main className="flex-1"> <Outlet/> </main>
-<Footer/>
-<WhatsAppFloat/>
-</div>
-)
+export default function App() {
+  return (
+    <div className="min-h-dvh flex flex-col">
+      <Navbar />
+      <main className="flex-1">
+        <Outlet />                 {/* <-- without this, Home never appears */}
+      </main>
+      <Footer />
+    </div>
+  );
 }
