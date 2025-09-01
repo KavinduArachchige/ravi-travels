@@ -7,7 +7,7 @@ export default function App() {
     <div className="min-h-dvh flex flex-col">
       <Navbar />
       <main className="flex-1">
-        <Outlet />          {/* without this, Home never renders */}
+        <Outlet />   {/* ← without this Home never appears */}
       </main>
       <Footer />
     </div>

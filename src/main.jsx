@@ -15,22 +15,20 @@ import NotFound from "./pages/NotFound.jsx";
 const router = createHashRouter([
   {
     path: "/",
-    element: <App />,            // layout (Navbar + Footer)
-    errorElement: <NotFound />,  // fallback for unmatched
+    element: <App />,
+    errorElement: <NotFound />, // shows only on real errors
     children: [
-      { index: true, element: <Home /> },            // <-- HOME
+      { index: true, element: <Home /> },               // ← HOME
       { path: "packages", element: <Packages /> },
       { path: "packages/:slug", element: <PackageDetails /> },
       { path: "dubai-visa", element: <Visa /> },
       { path: "contact", element: <Contact /> },
       { path: "about", element: <About /> },
-      { path: "*", element: <NotFound /> },          // catch-all
+      { path: "*", element: <NotFound /> },             // catch-all
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <React.StrictMode><RouterProvider router={router} /></React.StrictMode>
 );
